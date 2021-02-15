@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C22EF3425DACFA90039CD6B /* scientists.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C22EF3325DACFA90039CD6B /* scientists.json */; };
+		6C22EF3725DACFC60039CD6B /* Scientist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C22EF3625DACFC60039CD6B /* Scientist.swift */; };
 		6CBD0B8D25DABC460031B169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD0B8C25DABC460031B169 /* AppDelegate.swift */; };
-		6CBD0B8F25DABC460031B169 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD0B8E25DABC460031B169 /* art.scnassets */; };
 		6CBD0B9125DABC460031B169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD0B9025DABC460031B169 /* ViewController.swift */; };
 		6CBD0B9425DABC460031B169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD0B9225DABC460031B169 /* Main.storyboard */; };
 		6CBD0B9625DABC480031B169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBD0B9525DABC480031B169 /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C22EF3325DACFA90039CD6B /* scientists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scientists.json; sourceTree = "<group>"; };
+		6C22EF3625DACFC60039CD6B /* Scientist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scientist.swift; sourceTree = "<group>"; };
 		6CBD0B8925DABC460031B169 /* SpotTheScientist2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotTheScientist2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBD0B8C25DABC460031B169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6CBD0B8E25DABC460031B169 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		6CBD0B9025DABC460031B169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CBD0B9325DABC460031B169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CBD0B9525DABC480031B169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,13 +58,14 @@
 		6CBD0B8B25DABC460031B169 /* SpotTheScientist2 */ = {
 			isa = PBXGroup;
 			children = (
+				6C22EF3325DACFA90039CD6B /* scientists.json */,
 				6CBD0B8C25DABC460031B169 /* AppDelegate.swift */,
-				6CBD0B8E25DABC460031B169 /* art.scnassets */,
 				6CBD0B9025DABC460031B169 /* ViewController.swift */,
 				6CBD0B9225DABC460031B169 /* Main.storyboard */,
 				6CBD0B9525DABC480031B169 /* Assets.xcassets */,
 				6CBD0B9725DABC480031B169 /* LaunchScreen.storyboard */,
 				6CBD0B9A25DABC480031B169 /* Info.plist */,
+				6C22EF3625DACFC60039CD6B /* Scientist.swift */,
 			);
 			path = SpotTheScientist2;
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CBD0B8F25DABC460031B169 /* art.scnassets in Resources */,
+				6C22EF3425DACFA90039CD6B /* scientists.json in Resources */,
 				6CBD0B9925DABC480031B169 /* LaunchScreen.storyboard in Resources */,
 				6CBD0B9625DABC480031B169 /* Assets.xcassets in Resources */,
 				6CBD0B9425DABC460031B169 /* Main.storyboard in Resources */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CBD0B9125DABC460031B169 /* ViewController.swift in Sources */,
+				6C22EF3725DACFC60039CD6B /* Scientist.swift in Sources */,
 				6CBD0B8D25DABC460031B169 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
