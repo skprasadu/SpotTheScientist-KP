@@ -1,3 +1,3 @@
 # SpotTheScientist-KP
 
-![](demo.mp4)
+![Demo](demo.mp4)
